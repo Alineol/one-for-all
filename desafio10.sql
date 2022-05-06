@@ -3,6 +3,6 @@ FROM SpotifyClone.reproductions_history AS r
 JOIN SpotifyClone.users AS u
 ON r.user_id = u.user_id
 JOIN SpotifyClone.songs_list AS s
-ON r.song_id = r.song_id
+ON r.song_id = s.song_id
 WHERE u.plan_id IN (1, 4)
-GROUP BY nome;
+GROUP BY nome ORDER BY nome;
