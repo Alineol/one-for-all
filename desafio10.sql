@@ -4,5 +4,5 @@ JOIN SpotifyClone.users AS u
 ON r.user_id = u.user_id
 JOIN SpotifyClone.songs_list AS s
 ON r.song_id = r.song_id
-WHERE u.plan_id = (4)
+WHERE u.plan_id IN (1, 4)
 GROUP BY nome;
