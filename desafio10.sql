@@ -1,0 +1,8 @@
+SELECT s.name AS nome, COUNT(DISTINCT r.user_id) As reproducoes
+FROM SpotifyClone.reproductions_history AS r
+JOIN SpotifyClone.users AS u
+ON r.user_id = u.user_id
+JOIN SpotifyClone.songs_list AS s
+ON r.song_id = r.song_id
+WHERE u.plan_id = (4)
+GROUP BY nome;
