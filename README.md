@@ -1,5 +1,5 @@
 No projeto One For All, usei uma tabela para revisar e consolidar todos os principais conceitos sobre normalização de tabela não normalizada, população e solicitação de queries com sql. Recebi uma tabela não normalizada semelhante ao que poderia ser uma versão simplificada do banco de dados do Spotify. O trabalho tem duas partes:
-1. Normalizar essa tabela, criar o schema no seu banco de dados local e populá-lo;
+1. Normalizar essa tabela(arquivo: SpotifyClone-Non-NormalizedTable.xlsx), criar o schema no seu banco de dados local e populá-lo;
 2. Realizar os desafios no seu banco normalizado e populado.
 
 <strong>obs: os arquivos feitos por mim são os denominados desafio1....11, os outros foram fornecidos pelos trybe</strong>
