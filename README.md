@@ -122,7 +122,7 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   </details>
 </details>
 <details>
-  <summary><strong>5 - Tendo como base o valor dos planos e o plano que cada pessoa usuária cadastrada possui no banco, queremos algumas informações sobre o faturamento da empresa. Crie uma `QUERY` que deve exibir quatro dados:</strong></summary>
+  <summary><strong>6 - Tendo como base o valor dos planos e o plano que cada pessoa usuária cadastrada possui no banco, queremos algumas informações sobre o faturamento da empresa. Crie uma `QUERY` que deve exibir quatro dados:</strong></summary>
   1. A primeira coluna deve ter o alias "**faturamento_minimo**" e exibir o menor valor de plano existente para uma pessoa usuária.
 
   2. A segunda coluna deve ter o alias "**faturamento_maximo**" e exibir o maior valor de plano existente para uma pessoa usuária.
@@ -142,7 +142,7 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   </details>
 </details>
 <details>
-  <summary><strong>6 - Mostre uma relação de todos os álbuns produzidos por cada pessoa artista, com a quantidade de seguidores que ela possui, de acordo com os detalhes a seguir. Para tal, crie uma `QUERY` com as seguintes colunas:</strong></summary>
+  <summary><strong>7 - Mostre uma relação de todos os álbuns produzidos por cada pessoa artista, com a quantidade de seguidores que ela possui, de acordo com os detalhes a seguir. Para tal, crie uma `QUERY` com as seguintes colunas:</strong></summary>
   1. A primeira coluna deve exibir o nome da pessoa artista, com o alias "**artista**".
 
   2. A segunda coluna deve exibir o nome do álbum, com o alias "**album**".
@@ -160,14 +160,52 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   </details>
 </details>
 <details>
-  <summary><strong></strong></summary>
+  <summary><strong>8 - Mostre uma relação dos álbuns produzidos por um artista específico, neste caso `"Walter Phoenix"`.
+      Para isto crie uma `QUERY` que o retorno deve exibir as seguintes colunas:</strong></summary>
+  1. O nome da pessoa artista, com o alias "**artista**".
+
+  2. O nome do álbum, com o alias "**album**".
+
+  Os resultados devem ser ordenados pelo nome do álbum em ordem alfabética.
+
+  <details>
+    <summary><strong>➕ Informações complementares</strong></summary><br />
+
+    Sua `QUERY` deve retornar a seguinte informação:
+
+    ![Álbuns da pessoa artista](./images/AlbunsDoArtista.png)
+  </details>
 </details>
 <details>
-  <summary><strong></strong></summary>
+  <summary><strong>9 - Crie uma `QUERY` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária específica. Para este caso queremos saber quantas músicas estão no histórico do usuário `"Bill"` e a consulta deve retornar a seguinte coluna:</strong></summary>
+  1. O valor da quantidade, com o alias "**quantidade_musicas_no_historico**".
+
+  <details>
+    <summary><strong>➕ Informações complementares</strong></summary><br />
+
+    Sua `QUERY` deve retornar a seguinte informação:
+
+    ![Quantidade de músicas no histórico](./images/quantidade_musicas_no_historico.png)
+
+  </details>
 </details>
 <details>
-  <summary><strong>Requisito 1 - Criar um banco com o nome de SpotifyClone</summary>
+  <summary><strong>10 - Crie uma `QUERY` que exiba o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal de acordo com os detalhes a seguir:</summary>
+  * A primeira coluna deve exibir o nome da canção, com o alias "**nome**";
+
+  * A segunda coluna deve exibir a quantidade de pessoas que já escutaram aquela canção, com o alias "**reproducoes**";
+
+  * Seus resultados devem estar agrupados pelo nome da canção e ordenados em ordem alfabética.
+
+  <details>
+    <summary><strong>➕ Informações complementares</strong></summary><br />
+
+    Sua `QUERY` deve retornar a seguinte informação:
+
+    ![Canções premium](./images/cancoes_premium.png)
+  </details>
 </details>
 <details>
-  <summary><strong>Requisito 1 - Criar um banco com o nome de SpotifyClone</summary>
+  <summary><strong>11 - Crie uma `QUERY` que altere o nome de algumas músicas e as ordene em ordem alfabética com as colunas abaixo se baseando nos seguintes critérios:
+</summary>
 </details>
