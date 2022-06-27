@@ -190,7 +190,7 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   </details>
 </details>
 <details>
-  <summary><strong>10 - Crie uma `QUERY` que exiba o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal de acordo com os detalhes a seguir:</summary>
+  <summary><strong>10 - Crie uma `QUERY` que exiba o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal de acordo com os detalhes a seguir:</strong></summary>
   * A primeira coluna deve exibir o nome da canção, com o alias "**nome**";
 
   * A segunda coluna deve exibir a quantidade de pessoas que já escutaram aquela canção, com o alias "**reproducoes**";
@@ -206,6 +206,28 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   </details>
 </details>
 <details>
-  <summary><strong>11 - Crie uma `QUERY` que altere o nome de algumas músicas e as ordene em ordem alfabética com as colunas abaixo se baseando nos seguintes critérios:
-</summary>
+  <summary><strong>11 - Crie uma `QUERY` que altere o nome de algumas músicas e as ordene em ordem alfabética com as colunas abaixo se baseando nos seguintes critérios:</strong></summary>
+  1. O nome da música em seu estado normal com o alias **nome_musica**
+
+  2. O nome da música atualizado com o alias **novo_nome**
+
+  **Critérios**
+
+  - Trocar a palavra **"Streets"** no final do nome de uma música por **"Code Review"**
+
+  - Trocar a palavra **"Her Own"** no final do nome de uma música por **"Trybe"**
+
+  - Trocar a palavra **"Inner Fire"** no final do nome de uma música por **"Project"**
+
+  - Trocar a palavra **"Silly"** no final do nome de uma música por **"Nice"**
+
+  - Trocar a palavra **"Circus"** no final do nome de uma música por **"Pull Request"**
+
+  <details>
+    <summary><strong>➕ Informações complementares</strong></summary><br />
+
+    Sua `QUERY` retornar a seguinte informação:
+
+    ![Nome das músicas trocados](./images/replace_name.png)
+  </details>
 </details>
