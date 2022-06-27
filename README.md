@@ -61,14 +61,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   3. A terceira coluna deve exibir a quantidade de álbuns e deverá ter o alias "**albuns**".
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Estatísticas musicais](./images/estatisticas_musicais.png)
-  </details>
-
 </details>
 <details>
   <summary><strong>3 - Crie uma `QUERY` que deverá ter apenas três colunas:</strong></summary>
@@ -80,13 +72,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   Os resultados devem estar agrupados pelo nome da pessoa usuária e ordenados em ordem alfabética.
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Histórico de reprodução das pessoas usuárias](./images/HistoricoReproducaoUsuarios.png)
-  </details>
 </details>
 
 <details>
@@ -96,14 +81,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   2. A segunda coluna deve ter o alias "**condicao_usuario**" e exibir se a pessoa usuária está ativa ou inativa.
 
   O resultado deve estar ordenado em ordem alfabética.
-
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Condição da pessoa usuária](./images/condicao_usuario.png)
-  </details>
 </details>
 <details>
   <summary><strong>5 - Estamos fazendo um estudo das músicas mais tocadas e precisamos saber quais são as duas músicas mais tocadas no momento. Crie uma `QUERY` que possua duas colunas:</strong></summary>
@@ -112,14 +89,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   2. A segunda coluna deve possuir o alias "**reproducoes**" e exibir a quantidade de pessoas que já escutaram a canção em questão.
 
   Seu resultado deve estar ordenado em ordem decrescente, baseando-se no número de reproduções. Em caso de empate, ordene os resultados pelo nome da canção em ordem alfabética. Queremos apenas o top 2 de músicas mais tocadas.
-
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Top 2 hits do momento](./images/top_2_hits_do_momento.png)
-  </details>
 </details>
 <details>
   <summary><strong>6 - Tendo como base o valor dos planos e o plano que cada pessoa usuária cadastrada possui no banco, queremos algumas informações sobre o faturamento da empresa. Crie uma `QUERY` que deve exibir quatro dados:</strong></summary>
@@ -132,14 +101,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
   4. Por fim, a quarta coluna deve ter o alias "**faturamento_total**" e exibir o valor total obtido com os planos possuídos por pessoas usuárias.
 
   Para cada um desses dados, por se tratarem de valores monetários, deve-se arredondar o faturamento usando apenas duas casas decimais.
-
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Faturamento atual](./images/faturamento_atual.png)
-  </details>
 </details>
 <details>
   <summary><strong>7 - Mostre uma relação de todos os álbuns produzidos por cada pessoa artista, com a quantidade de seguidores que ela possui, de acordo com os detalhes a seguir. Para tal, crie uma `QUERY` com as seguintes colunas:</strong></summary>
@@ -151,13 +112,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   Seus resultados devem estar ordenados de forma decrescente, baseando-se no número de pessoas seguidoras. Em caso de empate no número de pessoas, ordene os resultados pelo nome da pessoa artista em ordem alfabética e caso há artistas com o mesmo nome, ordene os resultados pelo nome do álbum alfabeticamente.
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![PerfilArtistas](./images/perfil_artistas.png)
-  </details>
 </details>
 <details>
   <summary><strong>8 - Mostre uma relação dos álbuns produzidos por um artista específico, neste caso `"Walter Phoenix"`.
@@ -168,26 +122,11 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   Os resultados devem ser ordenados pelo nome do álbum em ordem alfabética.
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Álbuns da pessoa artista](./images/AlbunsDoArtista.png)
-  </details>
 </details>
 <details>
   <summary><strong>9 - Crie uma `QUERY` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária específica. Para este caso queremos saber quantas músicas estão no histórico do usuário `"Bill"` e a consulta deve retornar a seguinte coluna:</strong></summary>
   1. O valor da quantidade, com o alias "**quantidade_musicas_no_historico**".
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Quantidade de músicas no histórico](./images/quantidade_musicas_no_historico.png)
-
-  </details>
 </details>
 <details>
   <summary><strong>10 - Crie uma `QUERY` que exiba o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal de acordo com os detalhes a seguir:</strong></summary>
@@ -197,13 +136,6 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   * Seus resultados devem estar agrupados pelo nome da canção e ordenados em ordem alfabética.
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` deve retornar a seguinte informação:
-
-    ![Canções premium](./images/cancoes_premium.png)
-  </details>
 </details>
 <details>
   <summary><strong>11 - Crie uma `QUERY` que altere o nome de algumas músicas e as ordene em ordem alfabética com as colunas abaixo se baseando nos seguintes critérios:</strong></summary>
@@ -223,11 +155,4 @@ No projeto One For All, usei uma tabela para revisar e consolidar todos os princ
 
   - Trocar a palavra **"Circus"** no final do nome de uma música por **"Pull Request"**
 
-  <details>
-    <summary><strong>➕ Informações complementares</strong></summary><br />
-
-    Sua `QUERY` retornar a seguinte informação:
-
-    ![Nome das músicas trocados](./images/replace_name.png)
-  </details>
 </details>
